@@ -1,0 +1,94 @@
+/* Orange background for the entire app */
+body {
+  background-color: orange;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Center the calculator container */
+.bmi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Calculator card */
+.bmi-card {
+  background: #ffffff;
+  border-radius: 15px;
+  max-width: 600px; /* Increased size */
+  width: 100%;
+  padding: 40px; /* Extra padding for larger look */
+  border: 3px solid #007bff; /* Blue border for emphasis */
+}
+
+/* Heading */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Custom input styling */
+.custom-input {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.custom-button {
+  width: 48%;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.calculate-button {
+  background-color: #007bff; /* Blue button */
+  border: none;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: #dc3545; /* Red button */
+  border: none;
+}
+
+.reset-button:hover {
+  background-color: #a71d2a;
+}
+
+/* BMI result text */
+.bmi-result {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Styling for BMI status */
+.bmi-status {
+  font-weight: bold;
+}
+
+/* Different colors for statuses */
+.bmi-status.underweight {
+  color: #f39c12;
+}
+
+.bmi-status.normal {
+  color: #27ae60;
+}
+
+.bmi-status.overweight {
+  color: #e67e22;
+}
+
+.bmi-status.obesity {
+  color: #e74c3c;
+}
